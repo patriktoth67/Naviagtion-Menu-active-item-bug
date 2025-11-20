@@ -292,7 +292,7 @@ const navItems = [
 				</div>
 				<div class="p-6 bg-slate-800">
 					<UNavigationMenu
-						v-model="activeValue"
+						:model-value="activeValue"
 						orientation="vertical"
 						variant="pill"
 						:items="navItems"
